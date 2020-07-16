@@ -2,11 +2,30 @@
 <html>
 
   <head> 
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel='shortcut icon' type='image/x-icon' href='project/icon.ico' />
 <title>shop</title>
 <style>
+   * {
+  box-sizing: border-box;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+  }
   .fixed-bg {
   background-image: url("project/shop1.jpg");
   min-height: 445px;
